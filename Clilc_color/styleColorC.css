@@ -1,0 +1,67 @@
+* {
+    margin: 0%;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px #000000;
+    display: inline-block;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(0, 116, 179);
+    line-height: 120px;
+    margin-left: 10%;
+    font-family:  'Times New Roman',Georgia, Times, serif;
+    float: left;
+}
+
+.linkAS{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    width: 40px;
+    height: 10px;
+    margin-left: 80%;
+    margin-top: 10px;
+    padding: 10px;
+   
+}
+
+body{
+    background-color: rgba(180, 255, 252, 0.834);
+}
+
+main{
+    background-color: transparent;
+    height: 200px;
+    margin-top: 20%;
+}
+
+main div{
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 150px;
+    width: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align: center;
+}
+
+.h2Color{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#btn{
+   
+    margin-top: 20px;
+}
+
