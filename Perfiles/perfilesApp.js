@@ -31,6 +31,14 @@ function imprimir(){
     
 }
 
+// arrow function o funcion anomima 
+const arrowF = () => {
+    const nuevo = document.createElement("i");
+    nuevo.classList.add("clase-html"); // evnga lo entiendes
+    nuevo.parentElement.classList.toggle('done');//?????????????
+    return nuevo;
+}
+
 btnant.addEventListener("click", function(evento){
     console.log(evento);
     evento.preventDefault();//metodo para desactivar o cambiar el funcionamiento por defecto de objetos html
